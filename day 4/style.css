@@ -1,0 +1,88 @@
+body{
+    background-image: url('/Users/sujithg/Desktop/Assignment4/fdoc_4-Ashravani/pngtree-pure-color-watercolor-graffiti-gradient-background-board-design-board-design-image_66713.jpeg');
+    background-color:rgb(230, 255, 173);
+}
+.header-right{
+    text-align: right;
+    text-size-adjust: 0.32;
+    color:#66cdaa;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+.intro{
+    text-align: center;
+    font-size:30px ;
+    font-style: normal;
+    color:steelblue;
+    font-weight: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+.header{
+    color: orange;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    display: block;
+}
+.header h1{
+    font-size: 70px;
+    color: teal;
+}
+.About{
+    font-style:initial;
+    font-size:30px;
+    text-align: center;
+    color: orangered;
+
+}
+p{
+    font-size: 25px;
+    font-weight: normal;
+    float: initial;
+    color:turquoise;
+    text-align: justify;
+}
+.intro h1{
+    font-size: 100px;
+
+}
+.icons{
+    
+        text-align: center;
+    }
+.container1 h2 
+{
+            text-decoration: none;
+            color:tomato;
+            text-align: center;
+    
+
+}
+.container1 p{
+
+    color:tomato;
+    text-decoration: none;
+    text-align: center;
+}
+#projects{
+    background-color:mediumaquamarine;
+}
+.wrapper{
+    display:grid;
+    row-gap: 3px;
+    grid-template-columns: repeat(2,1fr);
+}
+.one{
+    grid-row: 1;
+    grid-column: 1/2;
+}
+.two{
+    grid-row: 1;
+    grid-column: 2;
+}
+#skills{
+    color: mediumblue;
+    font-weight: bold;
+    font-style: italic;
+}
